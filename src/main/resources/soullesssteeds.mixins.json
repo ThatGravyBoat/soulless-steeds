@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tech.thatgravyboat.soullesssteeds.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "soullesssteeds.refmap.json",
+  "mixins": [
+    "AbstractHorseMixin",
+    "ServerLevelMixin",
+    "ZombieHorseMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
